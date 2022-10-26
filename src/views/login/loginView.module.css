@@ -1,0 +1,24 @@
+.main {
+    height: 100vh;
+    gap: 2rem
+}
+
+.card {
+    max-width: 350px;
+    padding: 1rem;
+}
+
+.buttonSubmit {
+    width: 100%;
+}
+
+@media only screen and (max-width: 950px) {
+    .main {
+        flex-direction: column!important;
+    }
+    .main h3 {
+        font-size: 36px;
+        margin-top: 2rem;
+        text-align: center;
+    }
+}

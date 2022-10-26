@@ -1,0 +1,23 @@
+.main {
+    background-color: #0E0E0E;
+    padding: 2rem 0;
+}
+
+.container {
+    position: relative;
+    height: 100%;
+}
+
+.cardList {
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.add {
+    color: white;
+    width: 5rem;
+}
+
+.header {
+    margin-bottom: 2rem;
+}
